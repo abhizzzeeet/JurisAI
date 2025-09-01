@@ -5,6 +5,7 @@ langchain-chroma
 langchain-community
 chromadb
 pypdf
+pymupdf
 tqdm
 python-dotenv
 sentence-transformers

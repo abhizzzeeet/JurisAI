@@ -34,6 +34,7 @@ try:
     # Get tokenizer for length checking
     tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
     llm_available = True
+    
 except Exception as e:
     print(f"LLM not available: {e}")
     text_generator = None
